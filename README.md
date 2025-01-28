@@ -1,0 +1,1 @@
+Esse projeto é a solução do [Desafio: Social links profile - Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ), um site que oferece aos desenvolvedores diversos desafios para aprimorar suas habilidades !
