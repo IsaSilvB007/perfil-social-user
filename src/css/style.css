@@ -1,0 +1,78 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter';
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 40px 0px;
+
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+}
+
+.superior {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.superior img {
+    width: 50%;
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+
+.superior .nome {
+    color: hsl(0, 0%, 100%);
+    padding: 10px 0px;
+    font-weight: normal;
+}
+
+.superior .local {
+    color: hsl(75, 94%, 57%);
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.superior p {
+    color: hsl(0, 0%, 100%);
+}
+
+.inferior {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.inferior .botao {
+    cursor: pointer;
+
+
+    padding: 20px 100px;
+
+    text-align: center;
+    border-radius: 10px;
+    
+    background-color: hsl(0, 0%, 20%);
+}
+
+.inferior p {
+    color: hsl(0, 0%, 100%);
+
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
